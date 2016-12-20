@@ -8,13 +8,13 @@ export default function counterApp(state = initialState, action) {
     case INCREMENT:
       return({
         ...state,
-        counter: ++state.counter
+        counter: (state.counter + 1)
       });
       break;
     case DECREMENT:
       return({
         ...state,
-        counter: --state.counter
+        counter: (state.counter -1)
       });
       break;
     default:
