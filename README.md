@@ -10,4 +10,3 @@ To run the application<br/>
 5) Open the index.html from the browser<br/>
 <br/>
 <br/>
-Documentation source taken http://redux.js.org<br/>
